@@ -1,0 +1,30 @@
+1. $ export "environmentname"
+Exports the environment variable
+
+2. # ls *.jpg | xargs -n1 -i cp {} /external-hard-drive/directory
+Copy all images to external harddisk
+
+3. # find / -name *.jpg -type f -print | xargs tar -cvzf images.tar.gz
+Search all jpg images in the system and archieve it.
+
+4. # cat url-list.txt | xargs wget –c
+Download all UL's mentioned in the URL list
+
+5. # shutdown -h now
+Shutdown command line
+
+6. # shutdown -r now
+Reboot the system using shutdown command
+
+7. # crontab -u john -l
+View crontab entry for a specific user.
+
+8. $ grep -i "the" demo_file
+Search for given string in the command
+
+9. # find ~ -empty
+Find all empty files in home directory
+
+10. $ vim +143 filename.txt
+Go to 143rd line of the file
+
